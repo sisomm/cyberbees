@@ -27,6 +27,8 @@ PubSubClient client(espClient);
 const int PIN_AP = 2;       // AP pin for Wifi manager
 String EspName="";
 
+// Example for json Generator: https://wandbox.org/permlink/T5jKooL3BAYFijCH
+
 String bulkMeasure(){
   DynamicJsonBuffer jsonBuffer;
   JsonObject& root = jsonBuffer.createObject();
